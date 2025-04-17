@@ -15,3 +15,7 @@ variable "project_name" {
   type        = string
   default     = "mallesh"
 }
+
+variable "ingress_ports" {
+  default = [22, 8080, 80]
+}
